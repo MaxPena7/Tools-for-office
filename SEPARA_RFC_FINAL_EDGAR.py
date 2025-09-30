@@ -55,9 +55,9 @@ def separar_pdf(pdf_path, ruta_guardado):
     print(f"PDF procesado y separado en carpetas correspondientes.")
 
 # Ruta del archivo PDF original
-pdf_path = r"C:\Users\pcc\Documents\TALONES DE PAGO\2024\202418\Recibos_R06_202418_O_1.pdf"
+pdf_path = r"C:\Users\NominaAdmin\Desktop\NOMINA\MAX\TALONES DE PAGO\2025\Q01\Recibos_R06_202501_O_1.pdf"
 
 # Ruta de destino para guardar los archivos separados
-ruta_guardado = r"C:\Users\pcc\Desktop\Escaner\P2"
+ruta_guardado = r"C:\Users\NominaAdmin\Desktop\NOMINA\MAX\TALONES DE PAGO\2025\Q01\SEPARADOS"
 
 separar_pdf(pdf_path, ruta_guardado)
